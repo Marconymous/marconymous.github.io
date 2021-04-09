@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="Style.css">
+      <meta charset="ISO-8859-1">
+      <title>Chess</title>
+   </head>
+   <body>
+      <div class="container">
+         <div id="board">
+            <div class="row">
+               <div class="letter"></div>
+               <div class="letter">A</div>
+               <div class="letter">B</div>
+               <div class="letter">C</div>
+               <div class="letter">D</div>
+               <div class="letter">E</div>
+               <div class="letter">F</div>
+               <div class="letter">G</div>
+               <div class="letter">H</div>
+            </div>
+            <div class="row">
+               <div class="number">
+                  1
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="1" class="move black BlackRook">
+                        <img src="./img/Black_Rook.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="2" class="move black BlackKnight">
+                        <img src="./img/Black_Knight.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="3" class="move black BlackBishop">
+                        <img src="./img/Black_Bishop.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="4" class="move black BlackQueen">
+                        <img src="./img/Black_Queen.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="5" class="move black BlackKing">
+                        <img src="./img/Black_King.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="6" class="move black BlackBishop">
+                        <img src="./img/Black_Bishop.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="7" class="move black BlackKnight">
+                        <img src="./img/Black_Knight.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="8" class="move black BlackRook">
+                        <img src="./img/Black_Rook.png">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="number">
+                  2
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="9" class="move black BlackPawn">
+                        <img src="./img/Black_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="10" class="move black BlackPawn">
+                        <img src="./img/Black_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="11" class="move black BlackPawn">
+                        <img src="./img/Black_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="12" class="move black BlackPawn">
+                        <img src="./img/Black_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="13" class="move black BlackPawn">
+                        <img src="./img/Black_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="14" class="move black BlackPawn">
+                        <img src="./img/Black_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="15" class="move black BlackPawn">
+                        <img src="./img/Black_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="16" class="move black BlackPawn">
+                        <img src="./img/Black_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="number">
+                  3
+               </div>
+               <div class="tile white-tile">
+               </div>
+               <div class="tile black-tile">
+               </div>
+               <div class="tile white-tile">
+               </div>
+               <div class="tile black-tile">
+               </div>
+               <div class="tile white-tile">
+               </div>
+               <div class="tile black-tile">
+               </div>
+               <div class="tile white-tile">
+               </div>
+               <div class="tile black-tile">
+               </div>
+            </div>
+            <div class="row">
+               <div class="number">
+                  4
+               </div>
+               <div class="tile black-tile">
+               </div>
+               <div class="tile white-tile">
+               </div>
+               <div class="tile black-tile">
+               </div>
+               <div class="tile white-tile">
+               </div>
+               <div class="tile black-tile">
+               </div>
+               <div class="tile white-tile">
+               </div>
+               <div class="tile black-tile">
+               </div>
+               <div class="tile white-tile">
+               </div>
+            </div>
+            <div class="row">
+               <div class="number">
+                  5
+               </div>
+               <div class="tile white-tile">
+               </div>
+               <div class="tile black-tile">
+               </div>
+               <div class="tile white-tile">
+               </div>
+               <div class="tile black-tile">
+               </div>
+               <div class="tile white-tile">
+               </div>
+               <div class="tile black-tile">
+               </div>
+               <div class="tile white-tile">
+               </div>
+               <div class="tile black-tile">
+               </div>
+            </div>
+            <div class="row">
+               <div class="number">
+                  6
+               </div>
+               <div class="tile black-tile">
+               </div>
+               <div class="tile white-tile">
+               </div>
+               <div class="tile black-tile">
+               </div>
+               <div class="tile white-tile">
+               </div>
+               <div class="tile black-tile">
+               </div>
+               <div class="tile white-tile">
+               </div>
+               <div class="tile black-tile">
+               </div>
+               <div class="tile white-tile">
+               </div>
+            </div>
+            <div class="row">
+               <div class="number">
+                  7
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="49" class="move white WhitePawn">
+                        <img src="./img/White_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="50" class="move white WhitePawn">
+                        <img src="./img/White_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="51" class="move white WhitePawn">
+                        <img src="./img/White_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="52" class="move white WhitePawn">
+                        <img src="./img/White_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="53" class="move white WhitePawn">
+                        <img src="./img/White_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="54" class="move white WhitePawn">
+                        <img src="./img/White_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="55" class="move white WhitePawn">
+                        <img src="./img/White_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="56" class="move white WhitePawn">
+                        <img src="./img/White_Pawn.png">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="number">
+                  8
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="57" class="move white WhiteRook">
+                        <img src="./img/White_Rook.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="58" class="move white WhiteKnight">
+                        <img src="./img/White_Knight.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="59" class="move white WhiteBishop">
+                        <img src="./img/White_Bishop.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="60" class="move white WhiteQueen">
+                        <img src="./img/White_Queen.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="61" class="move white WhiteKing">
+                        <img src="./img/White_King.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="62" class="move white WhiteBishop">
+                        <img src="./img/White_Bishop.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile black-tile">
+                  <div class="moveheader">
+                     <div id="63" class="move white WhiteKnight">
+                        <img src="./img/White_Knight.png">
+                     </div>
+                  </div>
+               </div>
+               <div class="tile white-tile">
+                  <div class="moveheader">
+                     <div id="64" class="move white WhiteRook">
+                        <img src="./img/White_Rook.png">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="half">
+            <div id="btnrow">
+               <!-- <button id="refreshBtn" onclick="refresh(2)">Clear</button>
+               <button id="refreshBtn" onclick="refresh(1)">Sort</button>
+               <button id="refreshBtn" onclick="refresh(0)">Shuffle</button> -->
+               <div id="dead_black" class="row"></div>
+               <div id="dead_white" class="row"></div>
+            </div>
+         </div>
+      </div>
+      <script type="text/javascript" src="chess.js"></script>
+   </body>
+</html>
